@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target Shooting Assignment</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Target Shooting & Sports Guidance</h1>
+        <p>Select a category below to explore specific shooting disciplines, techniques, and stance positioning.</p>
+
+        <img src="pic.jpg" alt="poster" class="target-img">
+    
+    </header>
+
+    <main>
+        <div class="button-group">
+            <button class="btn btn-pistol" onclick="showDetails('pistol')">Pistol Details</button>
+            <button class="btn btn-rifle" onclick="showDetails('rifle')">Rifle Details</button>
+        </div>
+
+        <div class="details-container" id="detailsBox">
+            <p class="placeholder-text">Please click on a button above to view position details.</p>
+        </div>
+    </main>
+
+  
+
+    <script src="app.js"></script>
+</body>
+</html>

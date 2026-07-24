@@ -1,0 +1,95 @@
+/* Body tag styling poore page ke background aur font ke liye */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+/* Header tag styling top banner ke liye */
+header {
+    background-color: #1e293b;
+    color: white;
+    padding: 30px 20px;
+}
+
+/* Image class styling target image ke liye */
+.target-img {
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Button-group class buttons ke wrapper ke liye */
+.button-group {
+    margin: 30px 0;
+}
+
+/* Common Button styling */
+.btn {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+/* Pistol button color selection */
+.btn-pistol {
+    background-color: #2563eb;
+}
+
+/* Pistol button hover effect */
+.btn-pistol:hover {
+    background-color: #1d4ed8;
+}
+
+/* Rifle button color selection */
+.btn-rifle {
+    background-color: #059669;
+}
+
+/* Rifle button hover effect */
+.btn-rifle:hover {
+    background-color: #047857;
+}
+
+/* Dynamic details container box */
+.details-container {
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Details card alignment */
+.details-card {
+    text-align: left;
+}
+
+/* Heading inside details card */
+.details-card h2 {
+    color: #1e293b;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 8px;
+}
+
+/* List styling inside card */
+.details-card ul {
+    line-height: 1.8;
+}
+
+/* Initial placeholder text styling */
+.placeholder-text {
+    color: #666;
+}
